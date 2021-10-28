@@ -146,7 +146,7 @@ body {
 #mail_main #main_body #main_footer {
   background: #f7f9fc;
   border-radius: 0px 0px 4px 4px;
-  padding: 32px;
+  padding: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -158,6 +158,9 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
+}
+#mail_main #main_body #main_body_content_main{
+  padding:24px;
 }
 #mail_main #main_body #main_footer #main_footer_block1 #main_footer_address {
   margin: 48px 0;
@@ -221,12 +224,12 @@ body {
     margin: 16px 0;
   }
   #mail_main #main_body #main_footer #main_footer_block2 img {
-    width: 99px;
-    height: 24px;
+    width: 80px;
+    height: 20px;
   }
   #mail_main #main_body #main_footer #main_footer_block2 #icons img {
-    width: 15px;
-    height: 15px;
-    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
   }
 }
